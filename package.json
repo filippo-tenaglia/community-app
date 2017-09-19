@@ -1,0 +1,26 @@
+{
+  "name": "community-app",
+  "version": "1.0.0",
+  "description": "This is a simple app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filippo-tenaglia/community-app.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Filippo Tenaglia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filippo-tenaglia/community-app/issues"
+  },
+  "homepage": "https://github.com/filippo-tenaglia/community-app#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
