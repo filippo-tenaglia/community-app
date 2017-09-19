@@ -3,13 +3,12 @@ const app = express();
 const path = require('path');
 const server = require('http').createServer(app);
 const fs = require('fs');
-var port=3000;
+var port=8080;
 
 
 app.use(express.static(path.join(__dirname, 'public')));
 //console.log(path.join(__dirname,'public','index.html'));
-app.get('/',function(req,res,next){
-	console.log("contattato");
+app.get('/community/v1',function(req,res,next){
     res.sendFile(path.join(__dirname,'public','index.html'));
 });
 
